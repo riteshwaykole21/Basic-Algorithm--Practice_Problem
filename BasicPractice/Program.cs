@@ -12,6 +12,7 @@ namespace BasicPractice
         static void Main(string[] args)
         {
             Console.WriteLine("1 : Sum Of Two Given Integer Value");
+            Console.WriteLine("2 : Enter The Values");
             Console.WriteLine("Enter The Option");
             int Option = Convert.ToInt32(Console.ReadLine());
             switch(Option)
@@ -19,6 +20,10 @@ namespace BasicPractice
                 case 1:
                     TripleSum triple = new TripleSum();
                     triple.Values();
+                    break;
+                case 2:
+                    Absolute absolute = new Absolute();
+                    absolute.Diffences();
                     break;
             }
             Console.ReadLine();
