@@ -12,7 +12,7 @@ namespace BasicPractice
         {
             Console.WriteLine("Enter The Values");
             int N = Convert.ToInt32(Console.ReadLine());
-            int Y = 0;
+          //  int Y = 0;
             int X = 51;
             if(N > X)
             {
