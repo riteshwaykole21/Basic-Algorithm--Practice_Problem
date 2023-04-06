@@ -15,6 +15,8 @@ namespace BasicPractice
             Console.WriteLine("2 : Enter The Values");
             Console.WriteLine("3 : Enter The Number");
             Console.WriteLine("4 : Enter The values");
+            Console.WriteLine("5 : Crete New String");
+            Console.WriteLine("6 : Remove The Character ");
             Console.WriteLine("Enter The Option");
             int Option = Convert.ToInt32(Console.ReadLine());
             switch(Option)
@@ -33,7 +35,14 @@ namespace BasicPractice
                     break;
                 case 4:
                     TrueValue trueValue = new TrueValue(30,15);
-                   // trueValue.Live();
+                    trueValue.Live();
+                    break;
+                case 5:
+                    Create create = new Create(" if Ritesh");
+                    break;
+                case 6:
+                    Character character = new Character();
+                    character.Given();
                     break;
             }
             Console.ReadLine();
