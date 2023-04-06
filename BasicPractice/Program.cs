@@ -18,6 +18,7 @@ namespace BasicPractice
             Console.WriteLine("5 : Crete New String");
             Console.WriteLine("6 : Remove The Character ");
             Console.WriteLine("7  : Enter a String");
+            Console.WriteLine("8 : Find The Length Of String");
             Console.WriteLine("Enter The Option");
             int Option = Convert.ToInt32(Console.ReadLine());
             switch(Option)
@@ -48,6 +49,10 @@ namespace BasicPractice
                 case 7:
                     Exchange exchange = new Exchange();
                     exchange.Print();
+                    break;
+                case 8:
+                    FindfLength obj = new FindfLength();
+                    obj.Triple();
                     break;
             }
             Console.ReadLine();
