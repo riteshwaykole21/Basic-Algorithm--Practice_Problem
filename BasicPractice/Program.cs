@@ -17,6 +17,7 @@ namespace BasicPractice
             Console.WriteLine("4 : Enter The values");
             Console.WriteLine("5 : Crete New String");
             Console.WriteLine("6 : Remove The Character ");
+            Console.WriteLine("7  : Enter a String");
             Console.WriteLine("Enter The Option");
             int Option = Convert.ToInt32(Console.ReadLine());
             switch(Option)
@@ -43,6 +44,10 @@ namespace BasicPractice
                 case 6:
                     Character character = new Character();
                     character.Given();
+                    break;
+                case 7:
+                    Exchange exchange = new Exchange();
+                    exchange.Print();
                     break;
             }
             Console.ReadLine();

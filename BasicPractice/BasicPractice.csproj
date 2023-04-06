@@ -46,6 +46,7 @@
     <Compile Include="Absolute.cs" />
     <Compile Include="Character.cs" />
     <Compile Include="Create.cs" />
+    <Compile Include="Exchange.cs" />
     <Compile Include="Integer.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
