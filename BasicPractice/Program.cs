@@ -19,6 +19,7 @@ namespace BasicPractice
             Console.WriteLine("6 : Remove The Character ");
             Console.WriteLine("7  : Enter a String");
             Console.WriteLine("8 : Seprate Charcter From A String");
+            Console.WriteLine("9 : String In Reverse Order");
             Console.WriteLine("Enter The Option");
             int Option = Convert.ToInt32(Console.ReadLine());
             switch(Option)
@@ -53,6 +54,10 @@ namespace BasicPractice
                 case 8:
                     SeprateChar seprateChar = new SeprateChar();
                     seprateChar.Input();
+                    break;
+                case 9:
+                    ReverseOrder reverseOrder = new ReverseOrder();
+                    reverseOrder.Order ();
                     break;
             }
             Console.ReadLine();
